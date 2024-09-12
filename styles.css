@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "myfont";
+  font-family: "mono";
   src: url('gb.ttf') format('truetype'); /* Ensure the path and format are correct */
 }
 
 @font-face {
-  font-family: "fraunces";
+  font-family: "mono";
   src: url('fraunces.ttf') format('truetype'); /* Ensure the path and format are correct */
 }
 
@@ -31,7 +31,7 @@
 body {
   margin: 0;
   height: 100vh;
-  font-family: Georgia, Sans-Serif;
+  font-family: Monospace, Monospace;
   justify-content: center;
   align-items: center;
   animation: gradientBackground 30s linear infinite;
@@ -188,3 +188,8 @@ body {
 .page-footer-title {
   font-family: Sans-Serif;
 }/* css styles */
+
+
+#combined {
+  font: "Monospace";
+}
